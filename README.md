@@ -12,6 +12,7 @@ The Yelpcamp project is essentially a copy of the Yelp.com website, which only d
 - A registered/logged-in user may remark on the currently available campgrounds and may only remove his/her own comments.
 - On the page that provides information on a specific campground, this website displays the location of that campground on a map. The index page also features a cluster map that displays the locations of campground clusters.
 - Full authentication and authorization has been implemented in this project. 
+- This website is strong enough to handle basic security vulnerabilities related to cross-site scripting (XSS) and mongo injection, as well as some more issues are handled by the "helmet" npm-package.
 - It has been deployed on heroku and can be accessed using the given link: https://radiant-harbor-59780.herokuapp.com/
 ## Authors
 
