@@ -168,6 +168,7 @@ app.use((req, res, next) => {
     //yaha pe req.user jo bhi hoga woh locals mei dal rahe taki har template mei access ho.
     //isske alawa aur mei yeh kar skta tha ki har render mei bhejta current user aur woh hota agar toh sirf logout show krta...woh kafi ganda ho jata na
     res.locals.currentUser = req.user;
+    // console.log(req.user);
 
     //yaha keh raha hu ki jo bhi req.flash mei under success ho woh res.locals.success mei dal lo so as to access it in all the views.
     res.locals.success = req.flash('success');
