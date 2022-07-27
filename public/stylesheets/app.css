@@ -3,3 +3,10 @@
     height: 500px;
 }
 
+#preloader{
+    background: #18191b url("https://i.gifer.com/96L2.gif") no-repeat center center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}

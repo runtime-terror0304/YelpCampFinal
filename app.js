@@ -138,6 +138,7 @@ app.use(
                 "data:",
                 "https://res.cloudinary.com/daypc8keo/", 
                 "https://images.unsplash.com/",
+                "https://i.gifer.com/"
             ],
             fontSrc: ["'self'", ...fontSrcUrls],
         },
