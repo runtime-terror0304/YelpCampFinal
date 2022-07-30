@@ -1,7 +1,7 @@
 
 # Yelpcamp
 
-The Yelpcamp project is essentially a copy of the Yelp.com website, which only displays campgrounds.
+The Yelp.com website serves as an inspiration for the Yelpcamp project, but it only deals with campgrounds data.
 
 
 ## Features
