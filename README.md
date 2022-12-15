@@ -13,7 +13,7 @@ The Yelp.com website serves as an inspiration for the Yelpcamp project, but it o
 - On the page that provides information on a specific campground, this website displays the location of that campground on a map. The index page also features a cluster map that displays the locations of campground clusters.
 - Full authentication and authorization has been implemented in this project. 
 - This website is strong enough to handle basic security vulnerabilities related to cross-site scripting (XSS) and mongo injection, as well as some more issues are handled by the "helmet" npm-package.
-- It has been deployed on heroku and can be accessed using the given link: https://radiant-harbor-59780.herokuapp.com/
+- It has been deployed on Render and can be accessed using the given link: https://yelpcamp-jlfe.onrender.com
 ## Authors
 
 - [@RachitPuri](https://github.com/runtime-terror0304)
@@ -29,7 +29,7 @@ The Yelp.com website serves as an inspiration for the Yelpcamp project, but it o
 
 **Database:** MongoDB, Mongoose, Mongo Atlas.
 
-**APIs and Services used:** Cloudinary (for uploading images and getting their urls to be stored in mongo database), Mapbox (for geocoding the locations and displaying maps), Passport (for authentication), Heroku (for deployment). 
+**APIs and Services used:** Cloudinary (for uploading images and getting their urls to be stored in mongo database), Mapbox (for geocoding the locations and displaying maps), Passport (for authentication), Render (for deployment). 
 
 
 ## Screenshots
